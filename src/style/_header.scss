@@ -1,0 +1,31 @@
+header{
+	position: relative;
+}
+.header{
+	&__banner{
+	z-index: -1;
+	max-width: 100%;
+	position: relative;
+		&--home{
+			padding-top: 80%;
+			background:{
+			image: url(../img/home_mobile_01.jpg);
+			size: cover;
+			}
+		}
+		&--blog{}
+		&--portfolio{}
+	}
+	@media(min-width: $sm){
+	&__banner{
+	max-width: 100%;
+		&--home{
+			padding-top: 45%;
+			background:{
+			image: url(../img/home_01.jpg);
+			size: cover;
+			}
+		}
+	}
+	}
+}

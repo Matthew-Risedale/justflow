@@ -1,0 +1,42 @@
+.phylosophy{
+	height: 100%;
+	&__text{
+		background-color: rgba(255, 255, 255, 0.78);
+		margin-bottom: 25px;
+		position: relative;
+	}
+	&__title{
+		margin-top: 25px;
+	}
+	&__p{
+		margin: auto;
+		margin-top: 20px;
+		width: 80%;
+	}
+	@media(min-width: $sm){
+	background-image: url("../img/home_02.jpg");
+	background-size: cover;
+	height: 500px;
+	&__text{
+		font-family: 'Open Sans', sans-serif;
+		margin-bottom: 0;
+		&::after{
+			content: '';
+			display: block;
+			position: absolute;
+			border: 15px solid transparent;
+			border-right: 20px solid #C4DDE8;
+			top: 31%;
+			right: -1px;
+		}
+	}
+	&__title{
+		text-transform: uppercase;
+		font-family: 'Open Sans', sans-serif;
+		margin-top: 150px;
+	}
+	&__p{
+		width: 60%;
+	}
+	}
+}

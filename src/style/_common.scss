@@ -1,0 +1,27 @@
+.text-center{
+	text-align: center;
+}
+
+.title{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 28px;
+	color: $gray;
+}
+
+.p{
+	text-align: justify;
+		font-size: 17px;
+		letter-spacing: 0.1em;
+		line-height: 1.5em;
+		color: $gray;
+}
+
+.link{
+	border: 2px solid lighten($gray, 20%);
+	text-decoration: none;
+	color: $gray;
+	padding: 5% 25%;
+	box-sizing: border-box;
+}

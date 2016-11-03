@@ -1,0 +1,63 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		//- Adaptive
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		meta(name='HandheldFriendly', content='true')
+		title Document
+		link(rel="stylesheet" href="css/main.css")
+	body
+		header
+			.hamburger.hamburger--collapse
+				.hamburger-box
+					.hamburger-inner
+			#menu.menu.row
+				nav.menu__nav.col-xs-12.col-sm-6
+					ul.text-center
+						li 
+							a(href='portfolio.html') Protfolio
+						li
+							a(href='blog.html') Blog
+						li 
+							a(href='contacts.html') Contacts
+				.menu__darkside.col-sm-6
+			.header__banner
+				figure.header__banner--home
+
+		main
+
+			.phylosophy.row
+				.phylosophy__text.col-xs-12.col-sm-6
+					.phylosophy__title.title.text-center Our phylosophy
+					.phylosophy__p.p I didn't set out to be a photographer, but I enrolled in a one year photography course at Marino College in Dublin in 1995 while trying to figure out what to do with my life.
+				.phylosophy__img.col-sm-6
+
+			.author.row
+				.author__img-01.col-lg-6
+					img(src='img/home_03.jpg')
+				.author__img--mobile.col-xs-12
+					img(src='img/home_mobile_02.jpg')
+				.author__text.col-xs-12.col-sm-6.col-lg-3
+					.author__title.title.text-center Gabriel Rank
+					.author__p.p His images capture the spirit of his subjects with stule, substance and story that is uniquely his own.
+					.author__link.link-desktop
+						a.link.p(href='#') Look
+					.author__link.link-mobile
+						a.link.p(href='#') View More
+				.author__img-02.col-sm-6.col-lg-3
+					img(src='img/home_04.jpg')
+
+			.social.row
+				.write__me.col-lg-3
+					p.text-center.title write me
+					form.text-center
+						input(type='text')
+						input.link(type='submit', value='Send')
+					.p.email matthew.risedale@gmail.com
+				.social__link.col-lg-9.col-xs-12
+					a.title.text-center(href='#') social
+		<script src="/js/main.js"></script>
+
+
+//- <img src="1.gif" width="128" height="128" realsrc="yozhik.jpg">

@@ -1,0 +1,52 @@
+.social{
+	background-image: url(../img/home_mobile_03.jpg);
+	background-size: cover;
+	height: 300px;
+	.write__me{
+		display: none;
+	}
+	p.title{
+		margin-top: 100px;
+	}
+	.p{
+		text-align: center;
+		margin-top: 100px;
+	}
+	a{
+		display: block;
+		width: 200px;
+		margin: auto;
+		margin-top: 20%;
+		text-decoration: none;
+		padding: 0px 0px 10px 0px;
+		border-bottom: 2px solid darken($gray, 20%);
+		color: darken($gray, 20%)
+	}
+	form{
+		width: 70%;
+		margin: auto;
+	}
+	input[type='text']{
+		width: 100%;
+		background: none;
+		border: none;
+		border-bottom: 2px solid  lighten($gray, 20%);
+	}
+	input[type='submit']{
+		background: none;
+		margin-top: 50px;
+	}
+	@media(min-width: $sm){
+		height: 500px;
+		background-image: url(../img/home_06.jpg);
+		background-size: cover;
+			.write__me{
+			display: block;
+			height: 100%;
+			background-color: rgba(255,255,255,0.7);
+			}
+			a{
+				margin-top: 30%;
+			}
+		}
+}
